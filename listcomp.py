@@ -11,4 +11,4 @@ for i in range(x+1):
                 ar.append([])
                 ar[p]=[i,j,k]
                 p=p+1
-				print(ar)
+print(ar)
