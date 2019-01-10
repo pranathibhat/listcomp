@@ -1,4 +1,6 @@
 n = int(input())
 arr = list(map(int, input().split()))
-arr.remove(max(arr))
+z=max(arr)
+while z==max(arr):
+	arr.remove(max(arr))
 print(max(arr))
